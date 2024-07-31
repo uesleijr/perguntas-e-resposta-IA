@@ -6,28 +6,28 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Enunciado principal",
+        enunciado: "voce sabia que temos 3 tipos de IA ?",
         alternativas: [
             {
-                texto: "Texto 1",
-                afirmacao: "Afirmação 1 "
+                texto: "sim ",
+                afirmacao: "Inteligência Artificial Limita (ANI), Inteligência artificial geral (AGI) e Superinteligência (ASI)"
             },
             {
-                texto: "Texto 2",
-                afirmacao: "Afirmação 2"
+                texto: "nao ",
+                afirmacao: "entao, existem 3 tipos de IA e o nome delas sao Inteligência Artificial Limita (ANI), Inteligência artificial geral (AGI) e Superinteligência (ASI)"
             }
         ]
     },
     {
-        enunciado: "Enunciado 2",
+        enunciado: "voce sabe como a IA funciona ?",
         alternativas: [
             {
-                texto: "texto botão 1",
-                afirmacao: "Afirmação do texto botão 2"
+                texto: "sim ",
+                afirmacao: "parabens voce esta dentro dos assuntos atuais"
             },
             {
-                texto: "texto botão 2",
-                afirmacao: "Afirmação do texto botão 2"
+                texto: "nao ",
+                afirmacao: " a IA funciona por meio de uma combinação de algoritmos, dados e computação. É um complexo nó de processos que possibilita às máquinas aprender, se adaptar e tomar decisões baseadas em dados"
             }
         ]
     },
